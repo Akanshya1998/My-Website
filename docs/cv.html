@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Curriculum Vitae</title>
+
+<script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/flatly.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<!-- Favicon: navy circle with AD initials -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='50' fill='%231b2a6b'/><text x='50' y='65' font-family='Georgia,serif' font-size='38' font-weight='bold' text-anchor='middle' fill='white'>AD</text></svg>">
+
+<!-- Font Awesome for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Tnx8e/hbT/EKV8IssGEBe2qJDMaLKUQ3gHqUyw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Akanshya Dash</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="projects.html">Projects</a>
+</li>
+<li>
+  <a href="cv.html">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="https://github.com/Akanshya1998">GitHub</a>
+</li>
+<li>
+  <a href="https://www.linkedin.com/in/akanshyadash/">LinkedIn</a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Curriculum Vitae</h1>
+
+</div>
+
+
+<div class="cv-section">
+  <h2>Education</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Master of Public Health (MPH), Epidemiology</span>
+    <span class="cv-entry-date">Expected May 2026</span>
+  </div>
+  <div class="cv-entry-org">Rollins School of Public Health, Emory University &middot; Atlanta, GA</div>
+  <ul class="cv-bullets">
+    <li>Certificate in Data Science</li>
+    <li>Coursework: Statistical Programming (SAS &amp; R), Epidemiology, Data Visualization, Descriptive Statistics, Machine Learning, Python Programming, Data Visualization in Public Health, SQL, GIS (Geographic Information Systems)</li>
+  </ul>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Master of Business Administration, Pharmaceutical Technology</span>
+    <span class="cv-entry-date">June 2022</span>
+  </div>
+  <div class="cv-entry-org">SVKM NMIMS SPTM University &middot; Mumbai, India</div>
+  <ul class="cv-bullets">
+    <li>Coursework: Business Analytics, Project Management, Supply Chain, Mergers and Acquisitions, Sales &amp; Marketing</li>
+  </ul>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Bachelor of Pharmacy</span>
+    <span class="cv-entry-date">June 2022</span>
+  </div>
+  <div class="cv-entry-org">SVKM NMIMS SPTM University &middot; Mumbai, India</div>
+  <ul class="cv-bullets">
+    <li>Coursework: Pharmacokinetics, Pharmacovigilance, Pharmacology, Molecule Designing, Regulatory Affairs</li>
+  </ul>
+</div>
+
+<hr class="section-divider">
+
+<div class="cv-section">
+  <h2>Professional Experience</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Graduate Research Assistant — HRSA-Funded HIV Stigma Reduction Initiative</span>
+    <span class="cv-entry-date">January 2026 &ndash; Present</span>
+  </div>
+  <div class="cv-entry-org">Rollins School of Public Health, Emory University &middot; Atlanta, GA</div>
+  <ul class="cv-bullets">
+    <li>Support a multi-year HRSA-funded research initiative addressing HIV stigma in healthcare settings</li>
+    <li>Conducted systematic review screening and structured data extraction using Covidence</li>
+    <li>Evaluated evidence on interventions designed to reduce HIV stigma among healthcare providers</li>
+    <li>Align evidence synthesis and documentation with HRSA federal workplan and reporting requirements</li>
+  </ul>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Applied Practice Experience — CHIMES HIV Stigma Metrics Project</span>
+    <span class="cv-entry-date">June 2025 &ndash; September 2025</span>
+  </div>
+  <div class="cv-entry-org">Center for HIV and Mental Health Stigma Elimination Strategies (CHIMES), Johns Hopkins Bloomberg School of Public Health &middot; Remote</div>
+  <ul class="cv-bullets">
+    <li>Selected for a prestigious APE at the world's #1-ranked public health school (USA &amp; globally)</li>
+    <li>Led project: "Innovative development of an expanded, robust repository of attribute-specific and intersectional stigma metrics"</li>
+    <li>Designed and implemented reproducible R pipelines for psychometric validation of HIV-related stigma scales across multiple populations</li>
+    <li>Computed descriptive statistics, item distributions, and Cronbach's alpha for large survey datasets</li>
+    <li>Developed modular, reusable scripts to support scalable analysis of multiple stigma instruments</li>
+    <li>Executed systematic literature searches in PubMed, Embase, CINAHL, and PsycINFO using MeSH/Emtree terms</li>
+  </ul>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Graduate Research Assistant — PRISM HIV Prevention Team</span>
+    <span class="cv-entry-date">April 2025 &ndash; Present</span>
+  </div>
+  <div class="cv-entry-org">Department of Epidemiology, Rollins School of Public Health, Emory University &middot; Atlanta, GA</div>
+  <ul class="cv-bullets">
+    <li>Secured a competitive GRA position supporting the PRISM team on HIV prevention research</li>
+    <li>Maintain and update the U.S. PrEP Locator database covering 3,000+ providers nationwide, ensuring data accuracy and improved accessibility of HIV prevention services</li>
+  </ul>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Senior Executive — Portfolio Management &amp; Business Development (U.S. Market)</span>
+    <span class="cv-entry-date">October 2022 &ndash; July 2024</span>
+  </div>
+  <div class="cv-entry-org">Zydus Lifesciences &middot; Gujarat, India</div>
+  <ul class="cv-bullets">
+    <li>Identified and profiled 25+ therapeutic indications in the U.S. market, providing overviews of disease epidemiology, treatment algorithms, pipelines, competitive intelligence, and unmet needs</li>
+    <li>Evaluated quarterly pipelines of ~45 branded companies to identify early-stage products for development, label expansion, and new formulations</li>
+    <li>Facilitated portfolio analysis, product nominations, and oversaw completion of PIFs for topical, oral liquid, nasal, and injectable products</li>
+    <li>Monitored ANDA and NDA approvals monthly, evaluating product competition and new nominations using the IMS database</li>
+    <li>Mapped competitive landscape for products under development; prepared reports for annual R&amp;D meetings and quarterly planning</li>
+    <li>Monitored new developments from FDA releases, clinical trial data, and company press releases to enhance competitive intelligence</li>
+  </ul>
+</div>
+
+<hr class="section-divider">
+
+<div class="cv-section">
+  <h2>Research &amp; Data Science Projects</h2>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Reproducible Data Science Pipeline for HIV Epidemiology — Children &amp; Adolescents</span>
+    <span class="cv-entry-date">August 2025 &ndash; December 2025</span>
+  </div>
+  <div class="cv-entry-org">Emory University, RSPH &middot; R, Docker, GitHub, Makefile, renv</div>
+  <ul class="cv-bullets">
+    <li>Built an end-to-end reproducible data analysis pipeline using UNAIDS HIV epidemiology data for children and adolescents (ages 0–19)</li>
+    <li>Conducted descriptive epidemiologic analysis and time-trend visualization of HIV incidence (2000–2020)</li>
+    <li>Automated report generation using Makefile-driven workflows, producing tables, figures, and a publication-ready HTML report</li>
+    <li>Containerized the analytical environment using Docker to ensure cross-platform reproducibility</li>
+    <li>Implemented dependency management with renv; published and validated a public Docker Hub image</li>
+  </ul>
+
+  <div class="cv-entry">
+    <span class="cv-entry-title">Capstone Research: Routine Immunization Disruptions &amp; Vaccine-Preventable Disease Trends</span>
+    <span class="cv-entry-date">January 2026 &ndash; May 2026</span>
+  </div>
+  <div class="cv-entry-org">Emory University, RSPH &middot; Epidemiologic Analysis (CARE-Supported Districts, 2024–2025)</div>
+  <ul class="cv-bullets">
+    <li>Analyzed surveillance and immunization datasets across CARE-supported governorates to evaluate changes in VPD incidence</li>
+    <li>Assessed ecological associations between measles incidence and measles-rubella vaccination delivery using facility-level data</li>
+    <li>Examined trends across 399 VPD cases (measles, mumps, pertussis, hepatitis A/B, chickenpox)</li>
+    <li>Produced epidemiologic report and poster presentation summarizing findings for academic review</li>
+  </ul>
+</div>
+
+<hr class="section-divider">
+
+<div class="cv-section">
+  <h2>Skills</h2>
+
+  <p><strong>Statistical Methods</strong></p>
+  <div class="skills-grid">
+    <span class="skill-tag">Regression Modeling</span>
+    <span class="skill-tag">Survival Analysis</span>
+    <span class="skill-tag">Hypothesis Testing</span>
+    <span class="skill-tag">Psychometric Validation</span>
+    <span class="skill-tag">Descriptive Epidemiology</span>
+  </div>
+
+  <p><strong>Programming &amp; Data Analysis</strong></p>
+  <div class="skills-grid">
+    <span class="skill-tag">R</span>
+    <span class="skill-tag">Python</span>
+    <span class="skill-tag">SAS</span>
+    <span class="skill-tag">SQL</span>
+  </div>
+
+  <p><strong>Data Science &amp; Reproducibility</strong></p>
+  <div class="skills-grid">
+    <span class="skill-tag">Git &amp; GitHub</span>
+    <span class="skill-tag">Docker</span>
+    <span class="skill-tag">Makefile</span>
+    <span class="skill-tag">renv</span>
+    <span class="skill-tag">R Markdown</span>
+  </div>
+
+  <p><strong>Spatial &amp; Public Health Analytics</strong></p>
+  <div class="skills-grid">
+    <span class="skill-tag">ArcGIS Pro</span>
+    <span class="skill-tag">R-based Spatial Analysis</span>
+    <span class="skill-tag">Spatial Statistics</span>
+    <span class="skill-tag">Geospatial Visualization</span>
+  </div>
+
+  <p><strong>Research &amp; Data Tools</strong></p>
+  <div class="skills-grid">
+    <span class="skill-tag">PubMed</span>
+    <span class="skill-tag">Embase</span>
+    <span class="skill-tag">CINAHL</span>
+    <span class="skill-tag">PsycINFO</span>
+    <span class="skill-tag">REDCap</span>
+    <span class="skill-tag">Covidence</span>
+    <span class="skill-tag">Elicit</span>
+  </div>
+</div>
+
+<hr class="section-divider">
+
+<div class="cv-section">
+  <h2>Certifications</h2>
+  <div class="award-item">&#127941; Certified in Human Subjects Protection &mdash; CITI Program</div>
+  <div class="award-item">&#127941; Certificate in Data Science &mdash; Rollins School of Public Health, Emory University</div>
+</div>
+
+<hr class="section-divider">
+
+<div class="cv-section">
+  <h2>Download</h2>
+  <p>
+    <a href="Akanshya_Dash_Resume.pdf" target="_blank" style="display:inline-block; background:#1b2a6b; color:#fff; padding:0.55rem 1.3rem; border-radius:6px; font-weight:700; text-decoration:none; font-family:'Lato',sans-serif;">
+      <i class="fas fa-file-pdf"></i>&nbsp; Download Full CV (PDF)
+    </a>
+  </p>
+</div>
+
+<style>
+.site-footer {
+  background-color: #0d1b2a;
+  color: #a0aec0;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  margin-top: 3rem;
+  border-top: 3px solid #1b2a6b;
+}
+.site-footer a {
+  color: #90a8e8;
+  text-decoration: none;
+}
+.site-footer a:hover {
+  color: #ffffff;
+}
+</style>
+
+<footer class="site-footer">
+  <p style="margin:0;">
+    &copy; 2026 Akanshya Dash &nbsp;&middot;&nbsp;
+    MPH in Epidemiology, Emory University &nbsp;&middot;&nbsp;
+    <a href="https://github.com/Akanshya1998" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+    &nbsp;&middot;&nbsp;
+    <a href="https://www.linkedin.com/in/akanshyadash/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+  </p>
+</footer>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var links = document.querySelectorAll(".navbar-nav a");
+  links.forEach(function(link) {
+    if (link.textContent.trim() === "GitHub") {
+      link.innerHTML = '<i class="fab fa-github"></i> GitHub';
+      link.setAttribute("target", "_blank");
+    }
+    if (link.textContent.trim() === "LinkedIn") {
+      link.innerHTML = '<i class="fab fa-linkedin-in"></i> LinkedIn';
+      link.setAttribute("target", "_blank");
+    }
+  });
+});
+</script>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

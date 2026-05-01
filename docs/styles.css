@@ -1,0 +1,452 @@
+/* ============================================================
+   AKANSHYA DASH — Personal Website Styles
+   Accent: Navy Blue #1b2a6b
+   Fonts: Playfair Display (headings) + Lato (body)
+   ============================================================ */
+
+/* --- Typography & Base ------------------------------------ */
+body {
+  font-family: 'Lato', 'Helvetica Neue', sans-serif;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #2c2c2c;
+  background-color: #f8f9fc;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #0d1b2a;
+}
+
+h1 { font-size: 2.2rem; }
+h2 { font-size: 1.6rem; margin-top: 2rem; }
+h3 { font-size: 1.25rem; }
+h4 { font-size: 1.05rem; }
+
+p { max-width: 100%; }
+
+code, pre {
+  font-family: 'Courier New', monospace;
+}
+
+pre {
+  border-radius: 6px;
+  padding: 1em;
+  background: #eef0f8;
+}
+
+a { color: #1b2a6b; }
+a:hover { color: #0d1b2a; }
+
+/* --- Navbar ----------------------------------------------- */
+.navbar,
+.navbar-default {
+  background-color: #1b2a6b !important;
+  border-bottom: 3px solid #0d1b2a !important;
+  min-height: 56px !important;
+}
+
+.navbar-brand,
+.navbar-default .navbar-brand {
+  font-family: 'Playfair Display', Georgia, serif !important;
+  font-size: 18px !important;
+  font-weight: 700 !important;
+  color: #ffffff !important;
+  padding-top: 16px !important;
+  padding-bottom: 16px !important;
+}
+
+.navbar-nav > li > a,
+.navbar-default .navbar-nav > li > a {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #c8d4f5 !important;
+  padding-top: 18px !important;
+  padding-bottom: 18px !important;
+}
+
+.navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #ffffff !important;
+  background-color: rgba(255,255,255,0.15) !important;
+  border-radius: 4px;
+}
+
+.navbar-nav > li > a .fab,
+.navbar-nav > li > a .fas {
+  font-size: 1rem;
+  margin-right: 5px;
+}
+
+/* --- Profile / Hero Section ------------------------------- */
+.profile-section {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 2rem;
+  background: linear-gradient(135deg, #e8ecf8 0%, #f0f3fc 60%, #e8ecf8 100%);
+  border-left: 6px solid #1b2a6b;
+  border-radius: 0 14px 14px 0;
+  padding: 2.2rem 2.8rem;
+  margin-bottom: 2.5rem;
+  box-sizing: border-box;
+  width: 100%;
+  box-shadow: 0 4px 20px rgba(27,42,107,0.09);
+}
+
+.profile-avatar {
+  width: 120px;
+  height: 120px;
+  min-width: 120px;
+  border-radius: 50%;
+  background-color: #1b2a6b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  box-shadow: 0 0 0 4px #ffffff, 0 0 0 7px #1b2a6b, 0 8px 24px rgba(27,42,107,0.22);
+  overflow: hidden;
+}
+
+.profile-avatar img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.profile-info h1 {
+  margin-top: 0;
+  margin-bottom: 0.3rem;
+  font-size: 2.2rem;
+  color: #1b2a6b;
+}
+
+.profile-info .tagline {
+  font-size: 1.0rem;
+  color: #4a5a80;
+  font-style: italic;
+  margin-bottom: 0.8rem;
+}
+
+.profile-info p {
+  font-size: 1.05rem;
+  color: #3a4a5e;
+  margin-bottom: 0;
+  line-height: 1.75;
+  text-align: justify;
+  max-width: 100%;
+}
+
+/* --- Section Divider -------------------------------------- */
+.section-divider {
+  border: none;
+  border-top: 2px solid #d0d8f0;
+  margin: 2.5rem 0;
+}
+
+/* --- Expertise Cards -------------------------------------- */
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.2rem;
+  margin: 1.5rem 0 2rem;
+}
+
+.highlight-card {
+  background: #ffffff;
+  border: 1px solid #d0d8f0;
+  border-top: 3px solid #1b2a6b;
+  border-radius: 8px;
+  padding: 1.4rem 1.5rem;
+  box-shadow: 0 2px 8px rgba(27, 42, 107, 0.07);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.highlight-card:hover {
+  box-shadow: 0 6px 18px rgba(27, 42, 107, 0.14);
+  transform: translateY(-2px);
+}
+
+.highlight-card .card-icon {
+  font-size: 1.8rem;
+  margin-bottom: 0.6rem;
+  color: #1b2a6b;
+}
+
+.highlight-card h4 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #0d1b2a;
+  margin: 0 0 0.4rem;
+}
+
+.highlight-card p {
+  font-size: 0.95rem;
+  color: #4a5a70;
+  margin: 0;
+  line-height: 1.6;
+  max-width: 100%;
+}
+
+/* --- Project Cards ---------------------------------------- */
+.project-card {
+  background: #ffffff;
+  border: 1px solid #d0d8f0;
+  border-radius: 10px;
+  padding: 1.8rem 2rem;
+  margin-bottom: 1.8rem;
+  box-shadow: 0 2px 10px rgba(27, 42, 107, 0.06);
+  transition: box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 6px 24px rgba(27, 42, 107, 0.13);
+}
+
+.project-card h3 {
+  color: #1b2a6b;
+  margin-top: 0;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  font-size: 1rem;
+  line-height: 1.75;
+  max-width: 100%;
+}
+
+.project-card .project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 0.8rem 0 1rem;
+}
+
+.project-card .tag {
+  background: #e2e8f8;
+  color: #1b2a6b;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.25rem 0.65rem;
+  border-radius: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.project-card .btn-github {
+  display: inline-block;
+  margin-top: 0.8rem;
+  background-color: #1b2a6b;
+  color: #ffffff !important;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  padding: 0.5rem 1.1rem;
+  border-radius: 6px;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease;
+}
+
+.project-card .btn-github:hover {
+  background-color: #0d1b2a;
+}
+
+.project-card .btn-github .fab {
+  margin-right: 5px;
+}
+
+/* --- CV / Resume Page ------------------------------------- */
+.cv-section {
+  margin-bottom: 2rem;
+}
+
+.cv-section h2 {
+  color: #1b2a6b;
+  border-bottom: 2px solid #d0d8f0;
+  padding-bottom: 0.4rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin-top: 1.5rem;
+}
+
+.cv-entry {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.cv-entry-title {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #0d1b2a;
+}
+
+.cv-entry-date {
+  font-size: 0.9rem;
+  color: #4a5a80;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.cv-entry-org {
+  font-size: 0.95rem;
+  color: #1b2a6b;
+  font-weight: 500;
+  width: 100%;
+}
+
+.cv-bullets {
+  list-style-type: disc;
+  padding-left: 1.4rem;
+  margin: 0.4rem 0 1.2rem;
+  font-size: 0.95rem;
+  color: #3a4a5e;
+  line-height: 1.7;
+}
+
+.cv-bullets li {
+  margin-bottom: 0.3rem;
+}
+
+/* Skills tags */
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.4rem 0 1.2rem;
+}
+
+.skill-tag {
+  background: #e2e8f8;
+  color: #1b2a6b;
+  border: 1px solid #b0c0e8;
+  font-size: 0.88rem;
+  font-weight: 500;
+  padding: 0.3rem 0.8rem;
+  border-radius: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Award badges */
+.award-item {
+  background: #fffdf0;
+  border-left: 3px solid #c9a227;
+  padding: 0.55rem 1rem;
+  margin-bottom: 0.5rem;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.95rem;
+  color: #3a4a5e;
+}
+
+/* Publication entry */
+.pub-entry {
+  font-size: 0.95rem;
+  color: #3a4a5e;
+  line-height: 1.7;
+  margin-bottom: 0.8rem;
+  padding-left: 1rem;
+  border-left: 2px solid #d0d8f0;
+}
+
+.pub-entry em { color: #1b2a6b; }
+
+/* Skills section labels */
+.cv-section p strong {
+  font-size: 1rem;
+  color: #0d1b2a;
+  display: block;
+  margin-bottom: 0.4rem;
+  margin-top: 0.8rem;
+}
+
+/* --- Elegant Section Headings ----------------------------- */
+h2 {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 0.35rem;
+}
+
+h2::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 3px;
+  background: linear-gradient(90deg, #1b2a6b, #5a7ad4);
+  border-radius: 2px;
+  margin-top: 0.3rem;
+}
+
+/* --- Classy Callout / Quote Box --------------------------- */
+.callout-box {
+  background: #ffffff;
+  border: 1px solid #d0d8f0;
+  border-left: 5px solid #1b2a6b;
+  border-radius: 0 10px 10px 0;
+  padding: 1.4rem 1.8rem;
+  margin: 1.5rem 0 2rem;
+  box-shadow: 0 2px 12px rgba(27,42,107,0.07);
+  font-size: 1.05rem;
+  color: #2c3e6a;
+  font-style: italic;
+  line-height: 1.85;
+}
+
+/* --- Responsive ------------------------------------------- */
+@media (max-width: 640px) {
+  .profile-section {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.4rem;
+    gap: 1.2rem;
+  }
+  .profile-avatar {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    font-size: 1.5rem;
+  }
+  .profile-info h1 { font-size: 1.5rem; }
+  .highlights-grid { grid-template-columns: 1fr 1fr; }
+  .project-card { padding: 1.2rem; }
+  .cv-entry { flex-direction: column; }
+  .navbar-brand,
+  .navbar-default .navbar-brand { font-size: 15px !important; }
+}
+
+@media (max-width: 400px) {
+  .highlights-grid { grid-template-columns: 1fr; }
+}
+
+/* Increase all CV content font size */
+.cv-section,
+.cv-section p,
+.cv-section li,
+.cv-section .cv-entry-title,
+.cv-section .cv-entry-org,
+.cv-section .cv-entry-date,
+.cv-section .pub-entry,
+.cv-section .award-item,
+.cv-section .skill-tag {
+  font-size: 1.05rem !important;
+  line-height: 1.9 !important;
+}

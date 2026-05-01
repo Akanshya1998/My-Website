@@ -1,0 +1,25 @@
+name: "akanshya-dash"
+output_dir: "docs"
+
+navbar:
+  title: "Akanshya Dash"
+  left:
+    - text: "Home"
+      href: index.html
+    - text: "Projects"
+      href: projects.html
+    - text: "CV"
+      href: cv.html
+  right:
+    - text: "GitHub"
+      href: https://github.com/Akanshya1998
+    - text: "LinkedIn"
+      href: https://www.linkedin.com/in/akanshyadash/
+
+output:
+  html_document:
+    theme: flatly
+    css: styles.css
+    includes:
+      in_header: header.html
+      after_body: footer.html

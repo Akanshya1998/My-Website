@@ -1,0 +1,78 @@
+---
+title: ""
+---
+
+```{=html}
+<div class="profile-section">
+  <div class="profile-avatar"><img src="photo.jpg" alt="Akanshya Dash" width="120" height="120"></div>
+  <div class="profile-info">
+    <h1>Akanshya Dash</h1>
+    <p class="tagline">MPH in Epidemiology &middot; Rollins School of Public Health, Emory University (Class of 2026)</p>
+    <p>Public health professional and MPH candidate in Epidemiology with a dual background in pharmacy and pharmaceutical strategy. Experienced in epidemiologic analysis, statistical programming, and reproducible research workflows using R, Python, and SAS. Skilled in psychometric validation, systematic reviews, spatial analysis, and translating complex data into actionable public health insights.</p>
+    <p>I am driven by a commitment to rigorous, reproducible science that bridges research and practice. From HIV prevention to vaccine-preventable disease surveillance, my work aims to strengthen health systems through evidence, equity, and collaboration.</p>
+  </div>
+</div>
+```
+
+---
+
+```{=html}
+<div class="callout-box">
+  "Epidemiology is the study of what is occurring to whom, and why &mdash; and using that knowledge to promote health and prevent disease."
+  <br><br>
+  My work is grounded in this principle: rigorous methods, reproducible science, and a commitment to translating evidence into equitable public health action.
+</div>
+```
+
+## Areas of Expertise
+
+```{=html}
+<div class="highlights-grid">
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-virus"></i></div>
+    <h4>Epidemiology</h4>
+    <p>Regression modeling, survival analysis, disease surveillance, psychometric validation, and systematic reviews</p>
+  </div>
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+    <h4>Data Science</h4>
+    <p>R, Python, SAS, SQL, GIS; reproducible pipelines with Docker, GitHub, Makefile, and renv</p>
+  </div>
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-ribbon"></i></div>
+    <h4>HIV Prevention Research</h4>
+    <p>HIV stigma measurement, PrEP access, HRSA-funded research, and multi-database literature synthesis</p>
+  </div>
+  <div class="highlight-card">
+    <div class="card-icon"><i class="fas fa-syringe"></i></div>
+    <h4>Global & Pharmaceutical Health</h4>
+    <p>Vaccine-preventable disease analysis, pharmaceutical portfolio strategy, and U.S. market epidemiologic profiling</p>
+  </div>
+</div>
+```
+
+---
+
+## Recent Highlights
+
+- **Graduate Research Assistant** &mdash; HRSA-Funded HIV Stigma Reduction Initiative, Emory University (January 2026 &ndash; Present)
+- **Applied Practice Experience** &mdash; Center for HIV and Mental Health Stigma Elimination Strategies (CHIMES), Johns Hopkins Bloomberg School of Public Health (June &ndash; September 2025)
+- **Capstone Project** &mdash; Routine Immunization Disruptions & Vaccine-Preventable Disease Trends in CARE-supported districts (2024&ndash;2025)
+- **Certificates** &mdash; Data Science &amp; Certificate in Data Science, Rollins School of Public Health
+- **Prior Industry Experience** &mdash; Senior Executive, Portfolio Management &amp; Business Development (U.S. Market), Zydus Lifesciences (2022&ndash;2024)
+
+---
+
+## Get in Touch
+
+```{=html}
+<div style="background:#e2e8f8; border-left:4px solid #1b2a6b; border-radius:0 8px 8px 0; padding:1.4rem 1.8rem; margin-top:0.5rem; max-width:680px;">
+  <p style="margin:0 0 0.5rem; font-weight:700; color:#0d1b2a; font-size:1.05rem;">Interested in connecting or collaborating?</p>
+  <p style="margin:0; font-size:1rem; color:#3a4a5e; line-height:1.75;">
+    I'd love to connect: reach me on 
+    <a href="https://www.linkedin.com/in/akanshyadash/" target="_blank"><i class="fab fa-linkedin-in"></i> LinkedIn</a> 
+    or at 
+    <a href="mailto:akanshya.dash@emory.edu"><i class="fas fa-envelope"></i> akanshya.dash@emory.edu</a>
+  </p>
+</div>
+```

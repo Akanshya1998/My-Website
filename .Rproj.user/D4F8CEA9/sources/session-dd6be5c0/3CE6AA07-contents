@@ -1,0 +1,96 @@
+---
+title: "Projects"
+---
+
+My work spans epidemiology, HIV prevention research, reproducible data science, and pharmaceutical public health. Below are selected projects from my graduate training and research experience, each written for a general audience.
+
+---
+
+## Featured Research
+
+```{=html}
+<div class="project-card">
+  <h3>Reproducible Data Science Pipeline for HIV Epidemiology &mdash; Children &amp; Adolescents</h3>
+  <div class="project-tags">
+    <span class="tag">HIV Epidemiology</span>
+    <span class="tag">R</span>
+    <span class="tag">Docker</span>
+    <span class="tag">GitHub</span>
+    <span class="tag">Reproducible Research</span>
+    <span class="tag">Data Visualization</span>
+  </div>
+  <p>HIV continues to disproportionately affect children and adolescents globally, yet granular, reproducible analyses of long-term trends are scarce. This project built an end-to-end reproducible data analysis pipeline using UNAIDS HIV epidemiology data for children and adolescents aged 0&ndash;19, covering the years 2000&ndash;2020.</p>
+  <p>The pipeline automates every step from data ingestion to publication-ready output: descriptive epidemiologic analysis, time-trend visualization of HIV incidence, and automated report generation using Makefile-driven workflows. The entire analytical environment was containerized using Docker to ensure cross-platform reproducibility, and dependency management with renv locks R package versions for consistent results. A validated public Docker Hub image allows anyone to fully reproduce all results with a single command.</p>
+  <a class="btn-github" href="https://github.com/Akanshya1998" target="_blank">
+    <i class="fab fa-github"></i> View on GitHub
+  </a>
+</div>
+
+<div class="project-card">
+  <h3>Capstone Research: Routine Immunization Disruptions &amp; Vaccine-Preventable Disease Trends</h3>
+  <div class="project-tags">
+    <span class="tag">Epidemiology</span>
+    <span class="tag">Immunization</span>
+    <span class="tag">Surveillance Data</span>
+    <span class="tag">CARE</span>
+    <span class="tag">Global Health</span>
+  </div>
+  <p>Disruptions to routine immunization programs can have serious downstream consequences for vaccine-preventable disease (VPD) burden. This capstone project analyzed surveillance and immunization datasets across CARE-supported governorates to evaluate changes in VPD incidence between 2024 and 2025.</p>
+  <p>The analysis assessed ecological associations between measles incidence and measles-rubella vaccination delivery using facility-level data, and examined trends across 399 VPD cases spanning measles, mumps, pertussis, hepatitis A/B, and chickenpox. Findings were synthesized into an epidemiologic report and poster presentation, providing actionable insights for immunization program planning and disease prevention strategy.</p>
+  <a class="btn-github" href="https://github.com/Akanshya1998/hiv-epi-final-project4-akanshya" target="_blank">
+    <i class="fab fa-github"></i> View on GitHub
+  </a>
+</div>
+```
+
+---
+
+## Research Experience Projects
+
+```{=html}
+<div class="project-card">
+  <h3>HIV Stigma Metrics Repository &mdash; CHIMES, Johns Hopkins Bloomberg School of Public Health</h3>
+  <div class="project-tags">
+    <span class="tag">HIV Stigma</span>
+    <span class="tag">Psychometrics</span>
+    <span class="tag">R</span>
+    <span class="tag">Systematic Review</span>
+    <span class="tag">Johns Hopkins</span>
+  </div>
+  <p>HIV-related stigma remains one of the most significant barriers to testing, treatment, and care engagement. As part of a prestigious Applied Practice Experience at Johns Hopkins Bloomberg School of Public Health (ranked #1 globally), this project developed an expanded, robust repository of attribute-specific and intersectional HIV stigma metrics.</p>
+  <p>Working with the Center for HIV and Mental Health Stigma Elimination Strategies (CHIMES), reproducible R pipelines were designed and implemented for psychometric validation of HIV-related stigma scales across multiple populations. The work included computing descriptive statistics, item distributions, and Cronbach's alpha for large survey datasets, and executing systematic literature searches across PubMed, Embase, CINAHL, and PsycINFO using MeSH and Emtree terms.</p>
+</div>
+
+<div class="project-card">
+  <h3>U.S. PrEP Locator Database Maintenance &mdash; PRISM HIV Prevention Team, Emory</h3>
+  <div class="project-tags">
+    <span class="tag">HIV Prevention</span>
+    <span class="tag">PrEP</span>
+    <span class="tag">HRSA-Funded</span>
+    <span class="tag">Data Management</span>
+    <span class="tag">Public Health</span>
+  </div>
+  <p>Access to pre-exposure prophylaxis (PrEP) is critical for HIV prevention, yet provider availability varies widely across the United States. As a Graduate Research Assistant with the PRISM HIV Prevention Team at Emory's Department of Epidemiology, this work involves maintaining and updating the U.S. PrEP Locator — a national provider-access directory covering 3,000+ providers nationwide.</p>
+  <p>This role ensures data accuracy and improved accessibility of HIV prevention services for individuals and providers across the country, directly supporting an HRSA-funded initiative to reduce HIV burden in underserved communities.</p>
+</div>
+
+<div class="project-card">
+  <h3>Epidemiologic Profiling &amp; Pharmaceutical Portfolio Strategy &mdash; Zydus Lifesciences (U.S. Market)</h3>
+  <div class="project-tags">
+    <span class="tag">Pharmaceutical Epidemiology</span>
+    <span class="tag">Competitive Intelligence</span>
+    <span class="tag">U.S. Market</span>
+    <span class="tag">Portfolio Strategy</span>
+  </div>
+  <p>Understanding the epidemiologic landscape of a disease is foundational to effective pharmaceutical strategy. In this role at Zydus Lifesciences, epidemiologic profiles were developed for 25+ therapeutic indications in the U.S. market, covering disease burden, treatment algorithms, competitive pipelines, and unmet needs.</p>
+  <p>The work included evaluating quarterly pipelines of ~45 branded companies to identify early-stage products for development and label expansion, monitoring ANDA and NDA approvals, and mapping competitive landscapes to inform R&D strategy. This experience bridges the worlds of epidemiology, pharmaceutical science, and strategic business intelligence.</p>
+</div>
+```
+
+---
+
+```{=html}
+<p style="font-size:0.95rem; color:#4a5a80; margin-top:1.5rem;">
+  <i class="fab fa-github"></i> Explore all repositories on my <a href="https://github.com/Akanshya1998?tab=repositories" target="_blank">GitHub profile</a>.
+</p>
+```

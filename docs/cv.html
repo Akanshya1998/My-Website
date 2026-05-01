@@ -491,68 +491,6 @@ $(document).ready(function () {
 .site-footer a:hover {
   color: #ffffff;
 }
-.social-icons {
-  margin: 0.6rem 0 0.3rem;
-  display: flex;
-  justify-content: center;
-  gap: 1.2rem;
-}
-.social-icons a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.4rem;
-  background: rgba(255,255,255,0.08);
-  border: 1px solid rgba(255,255,255,0.15);
-  border-radius: 6px;
-  padding: 0.4rem 1rem;
-  font-size: 0.95rem;
-  font-weight: 600;
-  color: #c8d4f5 !important;
-  transition: background 0.2s;
-}
-.social-icons a:hover {
-  background: rgba(255,255,255,0.18);
-  color: #ffffff !important;
-}
-.social-icons .fab {
-  font-size: 1.1rem;
-}
-</style>
-
-<footer class="site-footer">
-  <div class="social-icons">
-    <a href="https://github.com/Akanshya1998" target="_blank">
-      <i class="fab fa-github"></i> GitHub
-    </a>
-    <a href="https://www.linkedin.com/in/akanshyadash/" target="_blank">
-      <i class="fab fa-linkedin-in"></i> LinkedIn
-    </a>
-  </div>
-  <p style="margin:0.4rem 0 0;">
-    &copy; 2026 Akanshya Dash &nbsp;&middot;&nbsp;
-    MPH in Epidemiology, Emory University
-  </p>
-</footer>
-
-<script>
-function addNavIcons() {
-  var links = document.querySelectorAll(".navbar-nav a");
-  links.forEach(function(link) {
-    var txt = link.textContent.trim();
-    if (txt === "GitHub") {
-      link.innerHTML = '<i class="fab fa-github"></i> GitHub';
-      link.setAttribute("target", "_blank");
-    }
-    if (txt === "LinkedIn") {
-      link.innerHTML = '<i class="fab fa-linkedin-in"></i> LinkedIn';
-      link.setAttribute("target", "_blank");
-    }
-  });
-}
-document.addEventListener("DOMContentLoaded", addNavIcons);
-setTimeout(addNavIcons, 500);
-setTimeout(addNavIcons, 1500);
-</script>
 </style>
 
 <footer class="site-footer">

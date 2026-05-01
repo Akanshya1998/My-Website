@@ -503,26 +503,6 @@ $(document).ready(function () {
   </p>
 </footer>
 
-<script>
-function addNavIcons() {
-  var links = document.querySelectorAll(".navbar-nav a");
-  links.forEach(function(link) {
-    var txt = link.textContent.trim();
-    if (txt === "GitHub") {
-      link.innerHTML = '<i class="fab fa-github"></i> GitHub';
-      link.setAttribute("target", "_blank");
-    }
-    if (txt === "LinkedIn") {
-      link.innerHTML = '<i class="fab fa-linkedin-in"></i> LinkedIn';
-      link.setAttribute("target", "_blank");
-    }
-  });
-}
-document.addEventListener("DOMContentLoaded", addNavIcons);
-setTimeout(addNavIcons, 500);
-setTimeout(addNavIcons, 1500);
-</script>
-
 
 
 </div>
